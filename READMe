@@ -3,4 +3,8 @@ July 15 2024
     Created the index, player and enemy files. Using webpack to create a live server to test this. 
     Added player movement to the arrow keys. Added enemy, and enemy collision. 
     If player collides with enemy, player position is now reset to beginning. 
-    
+July 16 2024
+    Currently: 
+        Player spawns bottom of screen. Player has no objective other than pressing the arrow keys to get around the red squares, enemy icons, which will reset the Player to starting position. Meaning, we have a player that moves using arrow keys, enemies that move accross the screen, collision detection that resets the players position when hitting an enemy. 
+    Plan: 
+        First, let's get an objective for the Player. An objective for this game could be to dodge the red squares, but then hit a blue square which will also randomly come onto the screen. Each blue square can equalize a point for the Player. A point can be shown to the user, as a Score: . The score will increment everytime the user controls the Player and successfully hits a blue square. 
