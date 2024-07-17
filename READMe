@@ -8,3 +8,19 @@ July 16 2024
         Player spawns bottom of screen. Player has no objective other than pressing the arrow keys to get around the red squares, enemy icons, which will reset the Player to starting position. Meaning, we have a player that moves using arrow keys, enemies that move accross the screen, collision detection that resets the players position when hitting an enemy. 
     Plan: 
         First, let's get an objective for the Player. An objective for this game could be to dodge the red squares, but then hit a blue square which will also randomly come onto the screen. Each blue square can equalize a point for the Player. A point can be shown to the user, as a Score: . The score will increment everytime the user controls the Player and successfully hits a blue square. 
+            - Summary of what has been done:
+                Created the 'Objective' Class. Represented by blue squares. 
+                Integrated Objectives into the Game. Added an objective instance to the game loop.
+                Handled Collisions with Objectives. Updated the score when the player hits an objective. 
+
+    Future Developments:
+        Levels.
+            We won't do generic levels. Instead, we'll scale the enemy behaviour as the score gets higher. 
+        Enhance enemy behaviour. 
+            Add more sophisticated enemy movement patterns. 
+        Game Over and Restart.
+            Implement a game over screen and restart functionality. 
+        Add Sounds.
+            Introduce sound effects for collisions and scoring. 
+        Improve Visuals. 
+            Add more visual elements like backgrounds and animations. 
